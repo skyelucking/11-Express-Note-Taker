@@ -1,1 +1,16 @@
-[{"title":"Test Title","text":"Test text"}]
+[
+    {
+        "title": "Gym",
+        "text": "Move that body"
+    },
+    {
+        "title": "Tan",
+        "text": "get crispy "
+        
+    },
+    {
+        "title": "Laundry",
+        "text": "get clean"
+        
+    }
+]
