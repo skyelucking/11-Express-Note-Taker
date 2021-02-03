@@ -13,13 +13,8 @@ app.use(express.urlencoded({ extended: true }))
 
 //parse application/json
 app.use(bodyParser.json())
-
-// app.use(function (req, res){
-//     res.setHeader('Content-Type', 'text/plain')
-//     res.write('you posted:\n')
-//     res.end(JSON.stringify(req.body, null, 2))
-// })
-
+app.use(express.json());
+app.use(express.static("public"));
 require('./routing/api-routes.js')(app);
 require('./routing/html-routes.js')(app);
 
